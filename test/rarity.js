@@ -19,7 +19,7 @@ describe('Obtener todos los items: ', () => {
 });
 
 describe('Obtener items por rareza: ', () => {
-    it('mostrar los Legendarios rareza', (done) => {
+    it('mostrar los items por rareza: Legendarios ', (done) => {
         chai.request(url)
             .get('/rarity/Legendary')
             .end(function (err, res) {

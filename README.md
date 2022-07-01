@@ -10,6 +10,15 @@ Usando el instalador de paquetes NPM
 ```bash
 npm install
 ```
+y despues ejecutando 
+```bash
+npm start
+```
+
+Para ejecutar las pruebas unitarias, es necesario que la app este ejecutandose y escribir el siguiente comando
+```bash
+npm test
+```
 
 ## Uso
 
