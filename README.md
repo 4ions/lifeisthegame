@@ -47,6 +47,11 @@ http://localhost:3000/rarity/Legendary
 
 Este endpoint tambien se encuentra paginado, devolviendo los primeros 100 items, ademas se puede cambiar el limite de datos que se muestran, de igual manera que el anterior se permite navegar entre paginas
 
+Para modificar la cantidad de datos que se ven es usando el siguiente ejemplo
+```javascript
+http://localhost:3000/rarity/Legendary?size=10
+```
+
 ### Obtener la cantidad de items existente por cada CardSet
 
 ```javascript
